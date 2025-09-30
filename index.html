@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard Hanrick">Mohammad Hassan</h1>
+                    <p class="title">fullstack-utvecklare</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Visa kontaktuppgifter</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:mohammedhassan01209@gmail.com" class="contact-link">mohammedhassan01209@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">0763057935</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">Jun 20, 2005</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Sweden, Helsingborg</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+ 
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">om mig</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Hej! Jag heter Mohammad Hasan och är en passionerad programmerare från Helsingborg. Jag gillar att bygga saker med kod och testa nya teknologier, särskilt inom webbutveckling.</p>
+                    <p>Jag lär mig bäst genom att göra – experimentera, fixa buggar och skapa projekt som utmanar mig. Jag är nyfiken och uthållig, och gillar att förstå hur saker fungerar på riktigt. Mitt mål är att bli en skicklig fullstack-utvecklare och skapa webbplatser och appar som både fungerar bra och ser bra ut.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">Vad jag gör</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">Den mest moderna och högkvalitativa designen gjord på professionell nivå.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">Högkvalitativ utveckling av webbplatser på professionell nivå.</p>
+                            </div>
+                        </li>
+
+                        
+                    </ul>
+                </section>
+
+                <!-- Testimonials, modal and Clients removed as requested -->
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <!-- SUMMARY -->
+                <section class="summary">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="person-outline"></ion-icon></div>
+                        <h3 class="h3">SAMMANFATTNING</h3>
+                    </div>
+
+                    <p class="timeline-text">
+                        <strong>Mohammad Hasan</strong><br>
+                        Jag är en erfaren webbutvecklare och nätverksspecialist med starka kunskaper inom programmering och datorkommunikation. Jag är skicklig på att använda olika programmeringsspråk och verktyg för webbutveckling. Mitt mål är att skapa säkra och effektiva IT-lösningar som möter både tekniska och användarbehov.
+                    </p>    
+                </section>
+
+                <!-- KOMPETENSER -->
+                <section class="kompetenser">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="layers-outline"></ion-icon></div>
+                        <h3 class="h3">KOMPETENSER</h3>
+                    </div>
+
+                    <div class="skills-timeline">
+                        <div class="title-wrapper"><h4 class="h4">Hårda kompetenser</h4></div>
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Datorkommunikation</h4>
+                                <p class="timeline-text">Nätverksprotokoll, datasäkerhet, nätverkskonfiguration.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Programmering</h4>
+                                <p class="timeline-text">C#, JavaScript, PHP.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Webbutveckling</h4>
+                                <p class="timeline-text">HTML, CSS, SQL.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Systemadministration</h4>
+                                <p class="timeline-text">Windows, Linux, macOS.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Verktyg</h4>
+                                <p class="timeline-text">Microsoft Office, Visual Studio, GitHub, Notepad++ mm.</p>
+                            </li>
+                        </ol>
+
+                        <div class="title-wrapper"><h4 class="h4">Mjuka kompetenser</h4></div>
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Problemlösning</h4>
+                                <p class="timeline-text">Stark analytisk förmåga.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Kommunikation</h4>
+                                <p class="timeline-text">Enkel teknisk kommunikation.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Teamarbete</h4>
+                                <p class="timeline-text">Effektiv samarbetsförmåga.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Anpassningsbarhet</h4>
+                                <p class="timeline-text">Snabbt lärande och anpassning.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </section>
+
+                <!-- ERFARENHET -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+                        <h3 class="h3">ERFARENHET</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Badhus - Personal arbetare</h4>
+                            <span>Juni 2022 - Juli 2022</span>
+                            <p class="timeline-text">Avesta kommun, Avesta, Sverige</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Gräsklippning</h4>
+                            <span>Juni 2023 - Augusti 2023</span>
+                            <p class="timeline-text">Söderlindh fastighetsförvaltning, Helsingborg, Sverige</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Vårdbiträde / Timvikarie</h4>
+                            <span>11 juni 2025 – 22 augusti 2025</span>
+                            <p class="timeline-text">Elinebo vårdboende, Helsingborg</p>
+                            <p class="timeline-text">Stöttade äldre i deras vardag med omvårdnad, måltider och socialt stöd.</p>
+                            <p class="timeline-text">Hjälpte till med praktiska sysslor och skapade trygghet i boendemiljön.</p>
+                            <p class="timeline-text">Arbetade flexibelt efter verksamhetens behov via bemanningssystemet Medvind.</p>
+                            <p class="timeline-text">Fick gott omdöme för ansvarstagande, pålitlighet och gott bemötande.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- UTBILDNING -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">UTBILDNING</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Gymnasieexamen: El och energi - Datorkommunikation</h4>
+                            <span>Augusti 2021 – Juni 2024</span>
+                            <p class="timeline-text">Karlfeldtgymnasiet, Avesta</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- SPRÅK -->
+                <section class="languages">
+                    <h3 class="h3">SPRÅK</h3>
+                    <ul>
+                        <li><strong>Kurdiska:</strong> Modersmål</li>
+                        <li><strong>Arabiska:</strong> Avancerad nivå</li>
+                        <li><strong>Engelska:</strong> Flytande nivå</li>
+                        <li><strong>Svenska:</strong> Flytande nivå</li>
+                    </ul>
+                </section>
+
+            </article>
+
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Education</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+                            <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Education</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="education">
+                            <a href="https://www.linkedin.com/school/chas-academy/" target="_blank" rel="noopener noreferrer">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box"><ion-icon name="logo-linkedin"></ion-icon></div>
+                                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='240'><rect width='100%25' height='100%25' fill='%2300a1a7'/><text x='50%25' y='55%25' font-family='Arial,Helvetica,sans-serif' font-size='36' fill='%23ffffff' text-anchor='middle' dominant-baseline='middle'>Chas Academy</text></svg>" alt="Chas Academy banner" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Chas Academy</h3>
+                                <p class="project-category">Studier - Fullstackutveckling</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+          
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Kontakt</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps?q=Helsingborg,+Sweden&output=embed"
+                         width="100%" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">kontakt Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Skicka Meddelande</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
